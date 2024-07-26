@@ -13,8 +13,8 @@ module.exports = {
       },
     },
   },
-  daisyui: {
-    themes: ['dark', 'light', 'corporate', 'cupcake'],
-  },
-  plugins: [require('daisyui')],
+  // daisyui: {
+  //   themes: ['dark', 'light', 'corporate', 'cupcake'],
+  // },
+  // plugins: [require('daisyui')],
 };
