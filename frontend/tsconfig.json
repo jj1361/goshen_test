@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/components/LoadMorePosts.tsx",
+    "src/app/blog-3/page.tsx",
+    "src/app/[lang]/components/ErrorBoundry.jsx",
+    "src/app/[lang]/components/ErrorBoundary.tsx",
+    "src/app/global-error.tsx",
+    "src/app/[lang]/components/SendGrid.js",
+    "src/app/[lang]/components/FormSubmit.js.bak",
+    "src/app/api/mail/mail.tsx",
+    "src/api/mail/mail.js",
+    "src/app/[lang]/components/api/mail/route.js",
+    "src/app/[lang]/api/mail/route.js",
+    "src/app/[lang]/api/route.js",
+    "src/app/[lang]/components/EmailOld.js",
+    "src/app/[lang]/components/Registration.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

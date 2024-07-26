@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_donations_groups",
+  "info": {
+    "displayName": "Donations group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "donations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.donate"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    }
+  }
+}

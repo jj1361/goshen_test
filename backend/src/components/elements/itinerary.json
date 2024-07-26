@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_itineraries",
+  "info": {
+    "displayName": "itinerary"
+  },
+  "options": {},
+  "attributes": {
+    "arrival_date": {
+      "type": "date"
+    },
+    "departure_date": {
+      "type": "date"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "activity": {
+      "displayName": "activity",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.activity"
+    }
+  }
+}

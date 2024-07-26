@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_elements_lodging_continueds",
+  "info": {
+    "displayName": "lodging_continued"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

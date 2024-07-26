@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_resources",
+  "info": {
+    "displayName": "resource"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

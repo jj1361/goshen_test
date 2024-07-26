@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_slices_donates",
+  "info": {
+    "name": "Donate",
+    "displayName": "donate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "instructions": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "collectionName": "components_sections_gatherings",
+  "info": {
+    "displayName": "Gatherings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "location_name": {
+      "type": "string"
+    },
+    "registration_deadline": {
+      "type": "string"
+    },
+    "preview_btn_text": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "location_city": {
+      "type": "string"
+    },
+    "location_state": {
+      "type": "string"
+    },
+    "location_zip": {
+      "type": "string"
+    },
+    "location_address": {
+      "type": "string"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "check_in": {
+      "type": "date"
+    },
+    "check_out": {
+      "type": "date"
+    },
+    "registration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.registration"
+    },
+    "details": {
+      "displayName": "details",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.details"
+    },
+    "things_needed": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.things-needed"
+    },
+    "things_needed_header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.things-needed-header"
+    },
+    "lodging": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.lodging"
+    },
+    "register_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.register-button"
+    },
+    "lodging_continued": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.lodging-continued"
+    },
+    "campgrounds1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "campgrounds1_caption": {
+      "type": "text"
+    },
+    "campgrounds2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "campgrounds2_caption": {
+      "type": "text"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "blockBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

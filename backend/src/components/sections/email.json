@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_emails",
+  "info": {
+    "displayName": "email",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "namePlaceHolder": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "emailPlaceHolder": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "messagePlaceHolder": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

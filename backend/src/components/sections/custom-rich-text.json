@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_custom_rich_texts",
+  "info": {
+    "displayName": "Custom Rich Text"
+  },
+  "options": {},
+  "attributes": {
+    "rich_text": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

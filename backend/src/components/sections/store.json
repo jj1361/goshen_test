@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_stores",
+  "info": {
+    "displayName": "store"
+  },
+  "options": {},
+  "attributes": {
+    "store": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

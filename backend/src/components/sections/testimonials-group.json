@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_slices_testimonials_group",
+  "info": {
+    "name": "TestimonialsGroup",
+    "displayName": "Testimonials group",
+    "icon": "user-friends",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.testimonial"
+    },
+    "video": {
+      "type": "customField",
+      "customField": "plugin::video-field.video"
+    }
+  }
+}

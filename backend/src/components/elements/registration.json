@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_elements_registrations",
+  "info": {
+    "displayName": "Registration"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_elements_previews",
+  "info": {
+    "displayName": "preview"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "registration_deadline": {
+      "type": "string"
+    },
+    "location_name": {
+      "type": "string"
+    },
+    "location_address": {
+      "type": "string"
+    },
+    "location_city": {
+      "type": "string"
+    },
+    "location_state": {
+      "type": "string"
+    },
+    "location_zip": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_socials",
+  "info": {
+    "displayName": "Social"
+  },
+  "options": {},
+  "attributes": {
+    "delete": {
+      "type": "string"
+    }
+  }
+}

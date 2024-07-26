@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_activities",
+  "info": {
+    "displayName": "activity",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "activities_heading": {
+      "type": "string"
+    }
+  }
+}

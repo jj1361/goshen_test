@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_slices_givings_group",
+  "info": {
+    "name": "GivingsGroup",
+    "displayName": "Givings group",
+    "icon": "user-friends",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "givings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.giving"
+    },
+    "video": {
+      "type": "customField",
+      "customField": "plugin::video-field.video"
+    }
+  }
+}

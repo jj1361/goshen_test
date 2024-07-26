@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_resources",
+  "info": {
+    "displayName": "Resources"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "resource": {
+      "displayName": "resource",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.resource"
+    }
+  }
+}

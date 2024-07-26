@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_registration",
+  "info": {
+    "displayName": "Registration",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "adults": {
+      "type": "string"
+    },
+    "children": {
+      "type": "string"
+    },
+    "babies": {
+      "type": "string"
+    },
+    "seniors": {
+      "type": "string"
+    },
+    "arrival_date": {
+      "type": "string"
+    },
+    "departure_date": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

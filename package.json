@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "frontend": "yarn dev --prefix ../frontend/",
+    "backend": "yarn dev --prefix ../backend/",
+    "clear": "cd frontend && rm -rf .next && rm -rf cache",
+    "setup:frontend": "cd frontend && yarn",
+    "setup:backend": "cd backend && yarn",
+    "setup": "yarn install && yarn setup:frontend && yarn setup:backend",
+    "dev": "yarn clear && concurrently \"cd frontend && yarn dev\" \"cd backend && yarn develop\"",
+    "seed": "cd backend && yarn strapi import -f ../seed-data.tar.gz",
+    "export": "cd backend && yarn strapi export --no-encrypt -f ../seed-data",
+    "repo:upstream": "git fetch upstream && git merge upstream/main",
+    "build:css": "postcss ./static/css/main.css -o ./static/css/main-prefixed.css"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-markdown-gfm": "^41.1.0",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.11",
+    "@sklinet/strapi-plugin-video-field": "^1.0.6",
+    "@stripe/react-stripe-js": "2.1.2",
+    "@stripe/stripe-js": "^2.1.0",
+    "concurrently": "^8.2.2",
+    "micro": "^10.0.0",
+    "micro-cors": "0.1.1",
+    "react-icons": "^5.2.1",
+    "stripe": "^8.222.0",
+    "use-shopping-cart": "^3.2.0"
+  },
+  "devDependencies": {
+    "daisyui": "^4.11.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_things_needed_headers",
+  "info": {
+    "displayName": "things_needed_header"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_things_neededs",
+  "info": {
+    "displayName": "things_needed"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "text"
+    }
+  }
+}

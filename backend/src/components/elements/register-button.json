@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_register_buttons",
+  "info": {
+    "displayName": "Register Button"
+  },
+  "options": {},
+  "attributes": {
+    "registration_warning": {
+      "type": "string"
+    },
+    "registration_button_text": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
